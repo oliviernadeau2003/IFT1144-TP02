@@ -1,0 +1,21 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.conteneur {
+    width: 920px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+
+}
+
+header {
+    background-image: url("../images/nuages_708.jpg");
+    background-size: cover;
+    height: 200px;
+    border: 1px solid red;
+}
