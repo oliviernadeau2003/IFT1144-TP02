@@ -17,5 +17,68 @@ header {
     background-image: url("../images/nuages_708.jpg");
     background-size: cover;
     height: 200px;
+}
+
+h1 {
+    color: yellow;
+    font-size: 80px;
+}
+
+/* Navigation */
+
+nav {
+    background-color: yellow;
+}
+
+nav table {
+    width: 100%;
+}
+
+nav td {
+    width: 33.33%;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+    /* Utilise la couleur de texte par défaut */
+    display: block;
+    padding: 10px;
+}
+
+
+/* -=- --- -=- */
+
+
+/* Footer */
+footer table {
+    width: 100%;
+    background-color: #8BCFFC;
+}
+
+footer td {
+    text-align: center;
+
+    /* border: 1px solid black; */
+}
+
+.side-cells {
+    width: 20%;
+}
+
+/* -=- --- -=- */
+
+
+
+
+
+/* TEMPORAIRE */
+html,
+body,
+header,
+nav,
+main,
+footer {
     border: 1px solid red;
 }
