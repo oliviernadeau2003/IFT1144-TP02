@@ -6,6 +6,38 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>TP2 - Olivier Nadeau</title>
         <link rel="stylesheet" href="../css/tp2.css">
+
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+            }
+
+            .weather-table {
+                width: 90%;
+                margin: 0 auto;
+                border-collapse: collapse;
+            }
+
+            .weather-table th,
+            .weather-table td {
+                width: 20%;
+                text-align: center;
+                padding: 10px;
+                border: 1px solid #000;
+            }
+
+            .weather-table th {
+                background-color: #33CCCC;
+            }
+
+            .temp-min {
+                color: blue;
+            }
+
+            .temp-max {
+                color: red;
+            }
+        </style>
     </head>
 
     <body>
@@ -31,7 +63,57 @@
             </nav>
 
             <main>
-                <h1>MAIN</h1>
+                <p>Pr&eacute;vision m&eacute;t&eacute;rologique de 5 jours &agrave; partir du 9 novembre pour la ville
+                    de <strong>Montr&eacute;al</strong></p>
+
+                <table class="weather-table">
+                    <tr>
+                        <th>Lundi</th>
+                        <th>Mardi</th>
+                        <th>Mercredi</th>
+                        <th>Jeudi</th>
+                        <th>Vendredi</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="cloudy.png" alt="Ciel voilé"><br>
+                        </td>
+                        <td>
+                            <img src="light-snow.png" alt="Faible neige"><br>
+                        </td>
+                        <td>
+                            <img src="snow-showers.png" alt="Averse de neige"><br>
+                        </td>
+                        <td>
+                            <img src="cloudy.png" alt="Nuage"><br>
+                        </td>
+                        <td>
+                            <img src="clear.png" alt="Dégagé"><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Ciel voilé<br><span class="temp-min">Min-15&deg;C</span><br>
+                            <span class="temp-max">Max-10&deg;C</span>
+                        </td>
+                        <td>
+                            Faible neige<br><span class="temp-min">Min-10&deg;C</span><br>
+                            <span class="temp-max">Max5&deg;C</span>
+                        </td>
+                        <td>
+                            Averse de neige<br><span class="temp-min">Min -20&deg;C</span><br>
+                            <span class="temp-max">Max0&deg;C</span>
+                        </td>
+                        <td>
+                            Nuage<br><span class="temp-min">Min-20&deg;C</span><br>
+                            <span class="temp-max">Max -10&deg;C</span>
+                        </td>
+                        <td>
+                            Dégagé<br><span class="temp-min">Min-31&deg;C</span><br>
+                            <span class="temp-max">Max -20&deg;C</span>
+                        </td>
+                    </tr>
+                </table>
             </main>
 
             <footer>
