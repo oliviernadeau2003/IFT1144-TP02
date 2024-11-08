@@ -10,7 +10,7 @@ body {
     flex-direction: column;
     justify-content: center;
     margin: auto;
-
+    background-color: white;
 }
 
 header {
@@ -72,17 +72,3 @@ footer td {
 }
 
 /* -=- --- -=- */
-
-
-
-
-
-/* TEMPORAIRE */
-html,
-body,
-header,
-nav,
-main,
-footer {
-    border: 1px solid red;
-}
