@@ -64,12 +64,27 @@ footer table {
 
 footer td {
     text-align: center;
-
-    /* border: 1px solid black; */
 }
 
 .side-cells {
     width: 20%;
+    position: relative;
+}
+
+.top-right-link {
+    position: absolute;
+    top: 0px;
+    /* Adjust as needed */
+    right: 0px;
+    /* Adjust as needed */
+}
+
+.top-left-link {
+    position: absolute;
+    top: 0px;
+    /* Adjust as needed */
+    left: 0px;
+    /* Adjust as needed */
 }
 
 /* -=- --- -=- */

@@ -8,3 +8,28 @@
     margin: auto;
     width: 50%;
 }
+
+/* Style 1 pour les liens */
+.list-city>li>a {
+    color: #d8840e;
+    /* couleur normale */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.list-city>li>a:visited {
+    color: #16a085;
+    /* couleur lorsqu'il est visité */
+}
+
+.list-city>li>a:hover {
+    color: #bc931a;
+    /* fond survol */
+    text-decoration: underline;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.list-city>li>a:active {
+    color: #bc301a;
+    /* fond actif */
+}
