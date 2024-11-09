@@ -5,7 +5,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>TP2 - Olivier Nadeau</title>
-        <link rel="stylesheet" href="../css/tp2.css">
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/commentaires.css">
     </head>
 
     <body style="background-color: rgb(150, 190, 250);">
@@ -31,7 +32,37 @@
             </nav>
 
             <main>
-                <h1>MAIN</h1>
+                <p>Envoyez-nous vos commentaires</p>
+                <form method="post" action="http://www-ens.iro.umontreal.ca/~benbetks/cgi-bin/benbetks.cgi">
+                    <table>
+                        <tr>
+                            <td style="width: 140px;">
+                                <label for="nom">Nom:</label>
+                            </td>
+                            <td>
+                                <input type="text" id="nom" name="nom" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="adresse">Adresse:</label>
+                            </td>
+                            <td>
+                                <input type="text" id="adresse" name="adresse">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="commentaire">Commentaire:</label>
+                            </td>
+                            <td>
+                                <textarea id="commentaire" name="commentaire" rows="4" cols="50"></textarea>
+                            </td>
+                        </tr>
+                    </table>
+                    <button type="submit">Envoyer</button>
+                    <button type="reset">Réinitialiser</button>
+                </form>
             </main>
 
             <footer>

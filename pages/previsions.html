@@ -5,36 +5,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>TP2 - Olivier Nadeau</title>
-        <link rel="stylesheet" href="../css/tp2.css">
-
-        <!-- TO MOVE TO STYLE DOCUMENT -->
-        <style>
-            .weather-table {
-                width: 90%;
-                margin: 0 auto;
-                border-collapse: collapse;
-            }
-
-            .weather-table th,
-            .weather-table td {
-                width: 20%;
-                text-align: center;
-                padding: 10px;
-                border: 1px solid #000;
-            }
-
-            .weather-table th {
-                background-color: #33CCCC;
-            }
-
-            .temp-min {
-                color: blue;
-            }
-
-            .temp-max {
-                color: red;
-            }
-        </style>
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/previsions.css">
     </head>
 
     <body style="background-color: rgb(150, 190, 250);">
@@ -65,49 +37,71 @@
 
                 <table class="weather-table">
                     <tr>
+                        <th>Samedi</th>
+                        <th>Dimanche</th>
                         <th>Lundi</th>
                         <th>Mardi</th>
                         <th>Mercredi</th>
-                        <th>Jeudi</th>
-                        <th>Vendredi</th>
                     </tr>
                     <tr>
                         <td>
-                            <img src="cloudy.png" alt="Ciel voilé"><br>
+                            <img src="../images/degage.jpg" alt="Dégagé"><br>
                         </td>
                         <td>
-                            <img src="light-snow.png" alt="Faible neige"><br>
+                            <img src="../images/ciel_voile.jpg" alt="Ciel Voilé"><br>
                         </td>
                         <td>
-                            <img src="snow-showers.png" alt="Averse de neige"><br>
+                            <img src="../images/faible_neige.jpg" alt="Faible pluie"><br>
                         </td>
                         <td>
-                            <img src="cloudy.png" alt="Nuage"><br>
+                            <img src="../images/ciel_voile.jpg" alt="Ciel voilé"><br>
                         </td>
                         <td>
-                            <img src="clear.png" alt="Dégagé"><br>
+                            <img src="../images/degage.jpg" alt="Dégagé"><br>
                         </td>
                     </tr>
-                    <tr>
+                    <tr class="no-bottom-border">
                         <td>
-                            Ciel voilé<br><span class="temp-min">Min-15&deg;C</span><br>
-                            <span class="temp-max">Max-10&deg;C</span>
+                            Soleil<br>
                         </td>
                         <td>
-                            Faible neige<br><span class="temp-min">Min-10&deg;C</span><br>
-                            <span class="temp-max">Max5&deg;C</span>
+                            Ciel voilé<br>
                         </td>
                         <td>
-                            Averse de neige<br><span class="temp-min">Min -20&deg;C</span><br>
-                            <span class="temp-max">Max0&deg;C</span>
+                            Faible pluie<br>
                         </td>
                         <td>
-                            Nuage<br><span class="temp-min">Min-20&deg;C</span><br>
-                            <span class="temp-max">Max -10&deg;C</span>
+                            Ciel voilé<br>
                         </td>
                         <td>
-                            Dégagé<br><span class="temp-min">Min-31&deg;C</span><br>
-                            <span class="temp-max">Max -20&deg;C</span>
+                            Dégagé<br>
+                        </td>
+                    </tr>
+                    <tr class="no-top-border">
+
+                        <td>
+                            <span class="temp-min">Min -1&deg;C</span><br>
+                            <span class="temp-max">Max 7&deg;C</span>
+                        </td>
+                        <td>
+
+                            <span class="temp-min">Min 6&deg;C</span><br>
+                            <span class="temp-max">Max 10&deg;C</span>
+                        </td>
+
+                        <td>
+                            <span class="temp-min">Min 5&deg;C</span><br>
+                            <span class="temp-max">Max 12&deg;C</span>
+                        </td>
+
+                        <td>
+                            <span class="temp-min">Min -3&deg;C</span><br>
+                            <span class="temp-max">Max 7&deg;C</span>
+                        </td>
+
+                        <td>
+                            <span class="temp-min">Min 0&deg;C</span><br>
+                            <span class="temp-max">Max 5&deg;C</span>
                         </td>
                     </tr>
                 </table>

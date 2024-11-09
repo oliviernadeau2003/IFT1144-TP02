@@ -1,0 +1,33 @@
+.weather-table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.weather-table th,
+.weather-table td {
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.weather-table th {
+    background-color: #33CCCC;
+}
+
+.temp-min {
+    color: blue;
+}
+
+.temp-max {
+    color: red;
+}
+
+tr.no-bottom-border td {
+    border-bottom: transparent
+}
+
+tr.no-top-border td {
+    border-top: transparent
+}
